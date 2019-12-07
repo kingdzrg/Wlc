@@ -1,6 +1,6 @@
 const Discord = require('discord.js');
 const client = new Discord.Client();
-const prefix = '-';
+const prefix = 'KiNG,Dz';
 
 client.on('guildMemberAdd', member => {
 const mohamed= member.guild.channels.get("651481399139893267");
@@ -11,7 +11,7 @@ setTimeout(() => mohamed.send(`**Welcome 2 Geem.** :yes: `), 4000)
 });
 
 const devs = ["537675177677291530"];
-const adminprefix = ["-"];
+const adminprefix = ["KiNG,Dz"];
 client.on('message', message => {
     var argresult = message.content.split(` `).slice(1).join(' ');
       if (!devs.includes(message.author.id)) return;
