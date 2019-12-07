@@ -1,6 +1,6 @@
-const Discord = require('discord.js'),
-    client = new Discord.Client({sisableEveryone: true})
-    console.log("دوز دوز,");
+const Discord = require('discord.js');
+const client = new Discord.Client();
+const prefix = '-';
 
 client.on('guildMemberAdd', member => {
 const mohamed= member.guild.channels.get("651481399139893267");
