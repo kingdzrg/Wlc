@@ -3,7 +3,7 @@ const client = new Discord.Client();
 const prefix = 'KiNG,Dz';
 
 client.on('guildMemberAdd', member => {
-const mohamed= member.guild.channels.get("651481399139893267");
+const mohamed= member.guild.channels.get("654298466629058560");
 if(!mohamed) return;
 if(mohamed) {
 setTimeout(() => mohamed.send(`**-Welcome To __T__rust. :cloud: 
