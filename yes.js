@@ -3,10 +3,18 @@ const client = new Discord.Client();
 const prefix = 'KiNG,Dz';
 
 client.on('guildMemberAdd', member => {
-const mohamed= member.guild.channels.get("654298466629058560");
+const mohamed= member.guild.channels.get("657356348371107860");
 if(!mohamed) return;
 if(mohamed) {
 setTimeout(() => mohamed.send(`__**Welcome To TRUST,::hearts:  :gem: ..**__`), 4000)        
+}
+});
+
+client.on('guildMemberAdd', member => {
+const mohamed= member.guild.channels.get("657581393324277780");
+if(!mohamed) return;
+if(mohamed) {
+setTimeout(() => mohamed.send(`** Bienvenido a Virus ** <:654384332936577025:657951392862044160> ), 4000)        
 }
 });
 
