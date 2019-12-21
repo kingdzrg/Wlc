@@ -14,7 +14,7 @@ client.on('guildMemberAdd', member => {
 const mohamed= member.guild.channels.get("657581393324277780");
 if(!mohamed) return;
 if(mohamed) {
-setTimeout(() => mohamed.send(`** Bienvenido a Virus ** <:654384332936577025:657951392862044160> ), 4000)        
+setTimeout(() => mohamed.send(`** Bienvenido a Virus ** <:654384332936577025:657951392862044160>`), 4000)        
 }
 });
 
