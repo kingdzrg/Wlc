@@ -3,10 +3,10 @@ const client = new Discord.Client();
 const prefix = 'KiNG,Dz';
 
 client.on('guildMemberAdd', member => {
-const mohamed= member.guild.channels.get("657581393324277780");
+const mohamed= member.guild.channels.get("633656826730250270");
 if(!mohamed) return;
 if(mohamed) {
-setTimeout(() => mohamed.send(`** # - Welcome To Virus Server :rose: , Have Fun :sparkles: , ! **`), 4000)        
+setTimeout(() => mohamed.send(`> ** Welcome To Trust Shop Enjoy :sparkles:  **`), 4000)        
 }
 });
 
