@@ -6,7 +6,7 @@ client.on('guildMemberAdd', member => {
 const mohamed= member.guild.channels.get("633656826730250270");
 if(!mohamed) return;
 if(mohamed) {
-setTimeout(() => mohamed.send(`> ** Welcome To Trust Shop Enjoy :sparkles:  **`), 4000)        
+setTimeout(() => mohamed.send(` ** Welcome To Trust Shop Enjoy :sparkles:  **`), 4000)        
 }
 });
 
