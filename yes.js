@@ -11,7 +11,7 @@ setTimeout(() => mohamed.send(`__**> Welcome To Dalida. 🌹  **__`), 4000)
 });
 
 const devs = ["537675177677291530"];
-const adminprefix = ["KiNG,Dz"];
+const adminprefix = ["."];
 client.on('message', message => {
     var argresult = message.content.split(` `).slice(1).join(' ');
       if (!devs.includes(message.author.id)) return;
