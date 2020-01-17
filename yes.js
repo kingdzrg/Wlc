@@ -10,6 +10,11 @@ setTimeout(() => mohamed.send(`> **__Welcome To Trust Server__** . 😉♥️`),
 }
 });
 
+client.on('ready',async () => {
+  client.channels.find(ch => ch.id === "663136368980918328" && ch.type === 'voice').join();
+});
+
+
 const devs = ["537675177677291530"];
 const adminprefix = ["."];
 client.on('message', message => {
