@@ -9,6 +9,8 @@ setTimeout(() => mohamed.send(`**Hey, Welcome To Trust !** <:Zine1:6700791028748
 }
 });
 
+const devs = ["537675177677291530"]
+
 const adminprefix = "#";
 client.on('message', message => {
     var argresult = message.content.split(` `).slice(1).join(' ');
