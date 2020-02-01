@@ -5,7 +5,7 @@ client.on('guildMemberAdd', member => {
 const mohamed= member.guild.channels.get("673257832115732494");
 if(!mohamed) return;
 if(mohamed) {
-setTimeout(() => mohamed.send(` > **Welcome To Trust ! :cherry_blossom: :black_heart: ** `), 4000)        
+setTimeout(() => mohamed.send(`** > Welcome To Trust ! .. Check #・أثبت_نفسك :cherry_blossom: :notes: **`), 4000)        
 }
 });
 
