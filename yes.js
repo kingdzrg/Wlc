@@ -10,5 +10,4 @@ setTimeout(() => mohamed.send(`> ** Welcome  To Rose Empire <a:rose:676469611092
 });
 
 
-
 client.login(process.env.TOKEN);
