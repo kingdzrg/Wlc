@@ -5,7 +5,7 @@ client.on('guildMemberAdd', member => {
 const mohamed= member.guild.channels.get("641270361349947420");
 if(!mohamed) return;
 if(mohamed) {
-setTimeout(() => mohamed.send(`** - Hi , Welcome To `London` ❤️ **`), 4000)        
+setTimeout(() => mohamed.send(`** - Hi , Welcome To ``London`` ❤️ **`), 4000)        
 }
 });
 
